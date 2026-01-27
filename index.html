@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Undangan Pernikahan</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<audio id="bgMusic" loop>
+  <source src="lagunya.mp4" type="audio/mpeg">
+</audio>
+
+<section id="cover" class="page active">
+  <img src="perweding.jpg" class="cover-img" alt="Cover">
+  <h1>Rama & Citra</h1>
+  <p>Kepada Yth:</p>
+  <h2 id="guestName">pak irhan </h2>
+  <button onclick="openInvitation()">💌 Buka Undangan</button>
+</section>
+
+<section id="content" class="page">
+  <h1 class="title">💗 Undangan Pernikahan 💗</h1>
+
+  <div class="couple">
+    <h2>Rama Putra</h2>
+    <p>Putra dari Bpk. Ahmad & Ibu Siti</p>
+    <span class="heart">💞</span>
+    <h2>Citra Kirana</h2>
+    <p>Putri dari Bpk. Budi & Ibu Rina</p>
+  </div>
+
+  <div class="story">
+    <h3>📖 Cerita Singkat Kami</h3>
+    <p>
+      Berawal dari pertemuan sederhana, tumbuh menjadi cinta luar biasa.
+      Kami percaya, cinta adalah ibadah terpanjang yang ingin kami jalani bersama.
+    </p>
+  </div>
+
+  <div class="gallery">
+    <h3>📸 Galeri</h3>
+    <img src="fto 1.jpg">
+    <img src="fto 2.jpg">
+    <img src="ft 3.jpg">
+  </div>
+
+  <div class="event">
+    <h3>💒 Resepsi Pernikahan</h3>
+    <p>📅 Minggu, 20 Juli 2026</p>
+    <p>⏰ 10.00 WIB - Selesai</p>
+    <p>📍 Citty Mall, Dumai</p>
+    <a href="https://www.google.com/maps/place/SKA+Mall,+Pekanbaru/@0.4996383,101.4134791,17z/data=!4m14!1m7!3m6!1s0x31d5a9347b153e01:0xcb644449e8a62d2!2sSKA+Mall,+Pekanbaru!8m2!3d0.4996329!4d101.4180925!16s%2Fg%2F122nc49l!3m5!1s0x31d5a9347b153e01:0xcb644449e8a62d2!8m2!3d0.4996329!4d101.4180925!16s%2Fg%2F122nc49l?entry=ttu&g_ep=EgoyMDI2MDEyMS4wIKXMDSoASAFQAw%3D%3D" target="_blank">📍 Lihat Lokasi</a>
+  </div>
+
+  <div class="message">
+  <h3>💌 Pesan & Kesan</h3>
+  <form id="messageForm">
+    <input type="text" placeholder="Nama Anda" required>
+    <textarea placeholder="Tulis pesan doa..." required></textarea>
+    <button type="submit">Kirim 💕</button>
+  </form>
+  <p id="thanksMessage" style="display:none; color:green; margin-top:10px;">Pesan berhasil dikirim 💌</p>
+</div>
+
+
+  <footer>
+    <p>Terima kasih atas doa & kehadiran 💗</p>
+  </footer>
+</section>
+
+<script src="javascript.js"></script>
+</body>
+</html>
